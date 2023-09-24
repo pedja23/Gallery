@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            
+
+        }
+
+      
+        
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            
+            background-color: white;
+            text-align: center;
+        }
+
+        h1, p{
+            margin-left: 1%;
+        }
+
+        
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        @media screen and (min-width: 1024px){
+            .container{
+                justify-content: space-between;
+            }
+           .box {
+            width: 17.5%;
+            
+            margin: 1%;
+            
+           } 
+           img{
+            height: 80%;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(127, 127, 233);
+         }
+         .box>p{
+            margin: 0px;
+         }
+         }
+        
+
+        @media screen and (max-width: 1024px){
+            .container{
+                justify-content: space-between;
+            }
+           .box {
+            width: 17.5%;
+            margin: 1%;
+            border-radius: 10px;
+            
+         } 
+         img{
+            height: 80%;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(127, 127, 233);
+         }
+         .box>p{
+            margin: 0px;
+         }
+         }
+
+        @media screen and (max-width: 768px){
+            .container{
+                justify-content: space-between;
+            }
+            .box {
+                width: 30.5%;
+                margin: 1%;
+            }
+            img{
+            height: 80%;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(127, 127, 233);
+         }
+         .box>p{
+            margin: 0px;
+         }
+        }
+
+        @media screen and (max-width: 414px){
+            .container{
+                justify-content: center;
+            }
+            .box {
+                width: 77% ;
+                margin-bottom: 10px;
+            }
+            img{
+            height: 80%;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(127, 127, 233);
+         }
+         .box>p{
+            margin: 0px;
+         }
+        }
+
+
+         
+      
+    </style>
+
+</head>
+
+<body>
+    <h1>Gallery Heading</h1>
+
+    <div class="container">
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+        <div class="box"><img src="placeholder-image.png" alt="Placeholder" ><p>Image Title</p></div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus ligula at dictum iaculis. Integer imperdiet mollis imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac porta quam, a congue libero. Integer condimentum ipsum arcu. Nunc commodo orci lobortis ipsum pellentesque interdum. Nam enim risus, scelerisque at mi eget, euismod luctus velit.
+
+        Nunc pellentesque volutpat sapien, vitae aliquam erat. Aliquam dictum volutpat leo. Pellentesque eleifend dapibus erat id faucibus. Quisque consequat metus elit, ac efficitur odio dictum et. Fusce erat sapien, blandit consectetur vehicula sit amet, iaculis vitae dui. Nunc dui sapien, commodo in faucibus nec, varius a odio. In porta et tellus nec lobortis. Sed porttitor vehicula pretium. Cras a justo id leo elementum vehicula id non sapien. Nulla viverra est ut mi volutpat tincidunt id vitae magna. Curabitur ut nisi efficitur, molestie enim in, volutpat quam. Nulla et mattis sapien. Curabitur venenatis elit in ex ornare, vitae condimentum dolor accumsan. Maecenas luctus pulvinar arcu, sit amet sagittis libero auctor non.
+        
+        Vivamus rutrum sem at tellus tincidunt sodales sagittis sed velit. Aliquam vitae mi vitae lacus faucibus efficitur sed auctor dolor. Praesent vel justo vel diam aliquet commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis in nunc tortor. Ut a pulvinar tortor. Curabitur vitae odio sed dui blandit luctus id quis magna. Nunc dapibus leo nulla, non vehicula massa suscipit eu. Nullam diam leo, facilisis quis vehicula id, vestibulum ut urna. Donec vel tellus eu lorem porttitor auctor.
+        
+        Vivamus hendrerit bibendum placerat. Aliquam erat volutpat. Suspendisse rhoncus odio vitae arcu porta, ac porttitor lorem dapibus. Suspendisse ac neque aliquam, sodales leo eu, egestas quam. Suspendisse potenti. Ut vel elit vulputate, lacinia nisi sed, laoreet magna. Aenean facilisis metus vitae ornare iaculis. Vivamus id leo venenatis, imperdiet diam in, scelerisque sapien. Morbi viverra eget est quis accumsan. Sed euismod augue consequat tristique auctor. Phasellus a purus feugiat ligula finibus tempor a et ligula. Praesent volutpat ac lorem et malesuada. In tincidunt justo lacus, a molestie lectus pharetra et.</p>
+
+
+
+
+
+</body>
+
+</html>
